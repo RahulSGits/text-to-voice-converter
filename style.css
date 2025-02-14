@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsl(232, 74%, 62%);
+    background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container Styling */
+  .container {
+    background: #8d8ae7;
+    padding: 40px 50px;
+    border-radius: 16% 16% 16% 16% / 19% 19% 51% 51% ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h1 span {
+    color: #ff1616;
+  }
+  
+  /* Textarea Styling */
+  textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #f41818;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    transition: border-color 0.3s;
+  }
+  
+  textarea:focus {
+    border-color: #2d71bd;
+  }
+  
+  /* Button Styling */
+  button {
+    width: calc(33.3% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+  }
+  
+
+button:hover {
+    background-color: #357ab8;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#pauseButton {
+    background-color: #ffcc00;
+}
+
+#resumeButton {
+    background-color: #28a745;
+}
+
+#saveButton {
+    background-color: #6c757d;
+}
