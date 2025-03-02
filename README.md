@@ -14,3 +14,13 @@ The **Text-to-Voice Converter** is a web-based application that transforms writt
 - **HTML** – Structure of the web page  
 - **CSS** – Styling and responsive design  
 - **JavaScript** – Core logic using the Web Speech API  
+
+## 🛠️ Tech Stack  
+- **HTML, CSS, JavaScript** – Clean and responsive UI  
+- **Advanced Algorithms** – Intelligent Text to voice converter API 
+
+## ⚡ Live Demo  
+[🔗 Check it out here](https://text-to-speech-converter11.netlify.app/)
+
+
+🔒 **Stay Secure, Stay Safe!**  
